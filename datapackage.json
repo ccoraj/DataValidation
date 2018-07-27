@@ -14,7 +14,7 @@
           },
           {
             "name": "from",
-            "type": "string",
+            "type": "numeric",
             "description": "Payer"
           },
           {
