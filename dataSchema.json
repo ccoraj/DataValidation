@@ -8,7 +8,7 @@
           },
           {
             "name": "from",
-            "type": "numeric",
+            "type": "string",
             "description": "Payer"
           },
           {
