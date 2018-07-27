@@ -1,0 +1,29 @@
+{
+"schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The transaction date"
+          },
+          {
+            "name": "from",
+            "type": "numeric",
+            "description": "Payer"
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "Payee"
+          },
+          {
+            "name": "amount",
+            "type": "numeric",
+            "description": "Transaction value in Euros",
+            "constraints": {
+              "minimum": 0
+            }
+          }
+        ]
+      }
+}
