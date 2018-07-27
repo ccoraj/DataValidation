@@ -1,0 +1,36 @@
+{
+	"fields": [
+		{
+            "name": "date",
+            "type": "date",
+			"description": "The transaction date",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "from",
+            "type": "string",
+			"description": "Payer",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "to",
+            "type": "string",
+			"description": "Payee",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "amount",
+            "type": "number",
+            "constraints": {
+				"minimum": 0,
+                "required": true
+            }
+        }
+	]
+}
