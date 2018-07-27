@@ -1,9 +1,6 @@
 files:
   - source: data.csv
 
-datapackages:
-  - 'datapackage.json'
-
 settings:
   checks:
     # You can pass check types
