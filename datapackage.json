@@ -7,30 +7,39 @@
       "path": "data.csv",
       "schema": {
         "fields": [
-          {
+		{
             "name": "date",
             "type": "date",
-            "description": "The transaction date"
-          },
-          {
+			"description": "The transaction date",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
             "name": "from",
             "type": "string",
-            "description": "Payer"
-          },
-          {
+			"description": "Payer",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
             "name": "to",
             "type": "string",
-            "description": "Payee"
-          },
-          {
+			"description": "Payee",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
             "name": "amount",
             "type": "number",
-            "description": "Transaction value in Euros",
             "constraints": {
-              "minimum": 0
+				"minimum": 0,
+                "required": true
             }
-          }
-        ]
+        }
+	]
       }
     }
   ]
