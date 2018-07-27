@@ -1,0 +1,32 @@
+{
+	"fields": [
+		{
+            "name": "date",
+            "type": "date",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "from",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "to",
+            "type": "string",
+            "constraints": {
+                "required": true
+            }
+        },
+		{
+            "name": "amount",
+            "type": "numeric",
+            "constraints": {
+                "required": true
+            }
+        }
+	]
+}
